@@ -1,0 +1,81 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card{
+    width:400px;
+    border:1px solid lightgray;
+    border-radius: 14px;
+    padding: 10px;
+    margin:10px auto;
+    position: relative;
+}
+.card-img{
+    width: 100%;
+    border-radius: 14px;
+}
+.banner {
+    width :270px;
+    border: 1px solid orangered;
+    border-radius: 14px;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: orangered;
+    color: white;
+    position: absolute ;
+}
+.parent{
+    height : 300px;
+    width :400px;
+    background-color: rgb(0,0,0);
+    border-radius: 10%;
+    position : relative;
+   
+}
+.child{
+    height : 20px;
+    width : 110px;
+    background-color: rgb(0, 195, 255);
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    font-size: 12px;
+    padding : 5px;
+}
+.child2{
+    background-color: lightgrey;
+    color: black;
+    width: auto;
+    position: absolute;
+    bottom: 10px;
+    right:5px;
+    font-size: 12px;
+    border-radius: 15% ;
+    padding : 5px
+}
+.promoted{
+    background-color: lightslategray;
+    color: white;
+    width : auto;
+    position : absolute;
+    top:10px;
+    left : 10px;
+    font-size : 12px;
+    border-radius:10%;
+    padding:5px;
+
+}
+.safety{
+    position: absolute;
+    bottom :15px;
+}
+.descr{
+    font-size: 15px;
+    color: lightslategray;
+    padding-left: 15px;
+    bottom : 6px;
+    position : absolute;
+    left : 100px;
+
+}
+
